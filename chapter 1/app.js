@@ -718,3 +718,149 @@
 
 // -----------Q13--------------
 
+// var array = ["keyboard", "mouse", "printer", "monitor"];
+
+// document.write("Devices:" + "<br>" + array)
+// document.write("<br>" + "<br>" + "Out:" + "<br>" + array[0] + "<br>" + "Out" + "<br>" + array[1] + "<br>" + "Out" + "<br>" + array[2] +
+// "<br>" + "Out" + "<br>" + array[3])
+
+// --------------Q14-------------
+
+// var array = ["keyboard", "mouse", "printer", "monitor"];
+
+// document.write("Devices:" + "<br>" + array)
+// document.write("<br>" + "<br>" + "Out:" + "<br>" + array[3] + "<br>" + "Out" + "<br>" + array[2] + "<br>" + "Out" + "<br>" + array[1] +
+// "<br>" + "Out" + "<br>" + array[0])
+
+// -------------Q15------------------
+
+// var array = ["phone manufacturers"];
+
+// document.write("<select>")
+//     document.write("<option>" + array + "<option>")
+//     document.write("<option>" + "Apple" + "<option>")
+//     document.write("<option>" + "Samsung" + "<option>")
+//     document.write("<option>" + "Motorola" + "<option>")
+//     document.write("<option>" + "Nokia" + "<option>")
+//     document.write("<option>" + "Sony" + "<option>")
+//     document.write("<option>" + "Haier" + "<option>")
+// document.write("<select>")
+
+// -------------chapter#17-20--------------
+
+// -------------Q1---------------
+
+// var Arr[1,2] = ["hello", "david"]
+
+// ---------Q2----------
+
+// var arr = [
+//     [0, 2, 3, 4],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1],
+// ]
+// for(var i = 0; i < arr.length; i++) { 
+//     document.write(arr[i] + "<br>"); 
+// } 
+
+// ----------Q3---------
+
+// var i = 1;
+// for(i = 1; i <= 10; i++){
+//     document.write(i + "<br>")
+// }
+
+// ------Q4---------
+
+// var array = [20]
+// var n = prompt("Enter Number")
+// var i = prompt("Enter Length")
+// for(i = n; i<=array.length; i++){
+//     document.write(n+" * "+i+" = "+n*i + "<br>")
+// }
+
+// ---------Q5------------
+
+// var fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry']
+
+// document.write(fruits[0] + "<br>" + fruits[1] + "<br>" + fruits[2] + "<br>" + fruits[3] + "<br>" + fruits[4])
+
+// document.write("<br>" + "<br>" + "Element at indez 0 is" + " " + fruits[0] + "<br>" + "Element at indez 1 is" + " " + fruits[1] + "<br>"
+// + "Element at indez 2 is" + " " + fruits[2] + "<br>" + "Element at indez 3 is" + " " + fruits[3] + "<br>"
+// + "Element at indez 4 is" + " " + fruits[4])
+
+// -------------Q6-----------------
+
+// -------Counting-------
+// for(var i = 0; i <= 20; i++){
+//     document.write("Counting" + "<br> " + i + ' ')
+// }
+
+// -------reverse----------
+// var array = [1,2,3,4,5,6,7,8,9,10]
+// document.write(array.reverse() + "<br>")
+
+//-------even-------
+// for (var x=0; x<=50; x++) {
+//     if (x === 0) {
+//             document.write(x + "<br>");
+//     }
+//     else if (x % 2 === 0) {
+//             document.write(x + "<br>");   
+//     }
+// } 
+
+// ------------odd-----------
+// var i = 1;
+// while (i <= 50) {
+// document.write (i + "<br>");
+// i += 2;
+// }
+
+// // ----------Series-----------
+// for (var x=0; x<=50; x++) {
+//     if (x === 0) {
+//     document.write(x + "k" + " ");
+//           }
+//     else if (x % 2 === 0) {
+//          document.write(x + "k" + " ");   
+//   }
+// } 
+
+// ----------Q7-------------
+// var array = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var index = [0, 1, 2, 3, 4]
+// var x = prompt("Welcome to th XYZ bakery. What do You want to order?")
+// if (x >= "array"){
+//     alert("Available at index" + " " + index)
+// }
+// else if(x === array){
+//     alert("We are really sorry. This is not available")
+// }
+
+// --------Q8---------
+// var array = [3 , 6, 2, 56, 32, 5, 89, 32];
+// var largest= 0;
+
+// for (i=0; i<=largest;i++){
+//     if (array[i]>largest) {
+//          largest=array[i];
+//     }
+// }
+// document.write("The largest number is:" + " " + largest)
+
+// ---------Q9-----------
+// var array = [3 , 6, 2, 56, 32, 5, 89, 32];
+//  var smallest = array[0];
+
+//  for (var i=1; i<array.length; i++){
+//     if (array[i]<smallest) {
+//           smallest=array[i];
+//     }
+// }
+// document.write("The smallest number is:" + " " + smallest)
+
+// ---------Q10-----------
+// for(let j = 1; j <= 20; j++){
+//         document.write(5*j + " " + ",")
+// }
